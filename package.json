@@ -1,0 +1,25 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Advanced Css Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salman240/Natours.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Salman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salman240/Natours/issues"
+  },
+  "homepage": "https://github.com/salman240/Natours#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
