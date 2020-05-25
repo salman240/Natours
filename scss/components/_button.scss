@@ -3,13 +3,12 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    background: $color-white;
     padding: 1.5rem 4rem;
     display: inline-block;
     border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
-    font-size: 1.6rem;
+    font-size: $default-font-size;
   }
 
   &:hover {
@@ -33,6 +32,15 @@
 
     &::after {
       background-color: $color-white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &::after {
+      background-color: $color-primary;
     }
   }
 
